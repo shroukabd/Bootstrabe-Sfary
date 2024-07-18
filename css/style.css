@@ -1,0 +1,32 @@
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(20,20,20,0.7) , rgba(20,20,20,0.7)) , url(../img/bg-hero.jpg);
+    background-size: cover;
+
+}
+.nav-link{
+    font-size: 16px;
+}
+hr{
+    color: #fff;
+    margin: 20px 50px;
+}
+.h{
+    right: 130px;
+    padding: 9px;
+    width: 200px;
+}
+.popular img{
+    width: 100%;
+}
+.k{
+    height: 500px;
+}
+@media screen and (max-width : 480px){
+      
+    .navbar-toggler-icon{
+       background-color: #ccc;
+    
+    }
+
+}
